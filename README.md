@@ -1,7 +1,7 @@
 
 # Whatsapp Web
 
-Basitçe whatsapp web arayüz tasarımı
+WhatsappWeb arayüzünü HTML-SCSS(CSS) kullanarak kodladım.
 
 
 ## Ekran Görüntüleri
