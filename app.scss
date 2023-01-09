@@ -287,7 +287,6 @@ span svg {
       flex: 3;
       flex-direction: column;
       border-left: #cfcfcf28 1px solid;
-
       .message-input {
         position: absolute;
         bottom: 0;
@@ -346,8 +345,9 @@ span svg {
         display: flex;
         z-index: 999;
         flex-direction: column;
-        justify-content: center;
+        justify-content: end;
         gap: 20px;
+        height: calc(100% - 50px);
         .sender {
           display: inline-flex;
           border-radius: 10px 10px 10px 0;
@@ -356,27 +356,15 @@ span svg {
           background-color: $blue-gray;
           flex-direction: column;
           justify-content: flex-start;
-
           .sender-member {
             color: #0e9e47;
           }
           .sender-messages {
             color: $icon-color;
-          }
-        }
-        .reader {
-          background-color: #005c4b;
-          display: flex;
-          border-radius: 10px 10px 0px 10px;
-          padding: 1rem;
-          max-width: max-content;
-          margin-right: auto;
-          flex-direction: column;
-          justify-content: flex-end;
-          text-align: end;
-          .reader-messages {
-            align-items: center;
-            color: $icon-color;
+            span {
+              font-size: 11px;
+              padding-left: 4px;
+            }
           }
         }
       }

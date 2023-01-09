@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
-
 /* **************** */
 /* **************** */
 * {
@@ -54,14 +53,12 @@ span svg {
   /* Navbar Style */
   /* Content Style */
 }
-
 .app-container .navbar-container {
   padding: 0 10px 0 0;
   display: flex;
   flex-direction: row;
   background-color: #202c33;
 }
-
 .app-container .navbar-container .navbar-left {
   height: 60px;
   display: flex;
@@ -69,13 +66,11 @@ span svg {
   justify-content: space-between;
   flex-direction: row;
 }
-
 .app-container .navbar-container .navbar-left .owner-photo {
   display: flex;
   align-items: center;
   padding: 10px;
 }
-
 .app-container .navbar-container .navbar-left .owner-photo img {
   width: 42px;
   height: 42px;
@@ -83,12 +78,10 @@ span svg {
   border-radius: 50%;
   cursor: pointer;
 }
-
 .app-container .navbar-container .navbar-left .owner-photo img:hover {
   border: 2px solid #00a884;
   transition: 300ms all border ease-in;
 }
-
 .app-container .navbar-container .navbar-left .navbar-icons {
   display: flex;
   flex-direction: row;
@@ -96,7 +89,6 @@ span svg {
   align-items: center;
   cursor: pointer;
 }
-
 .app-container .navbar-container .navbar-left .navbar-icons span {
   width: 36px;
   height: 36px;
@@ -104,13 +96,11 @@ span svg {
   align-items: center;
   justify-content: center;
 }
-
 .app-container .navbar-container .navbar-left .navbar-icons span:hover {
   border-radius: 50%;
   background-color: #374248;
   transition: 300ms background ease-in;
 }
-
 .app-container .navbar-container .navbar-right {
   border-left: rgba(207, 207, 207, 0.1568627451) 1px solid;
   display: flex;
@@ -119,44 +109,37 @@ span svg {
   justify-content: flex-start;
   justify-content: space-between;
 }
-
 .app-container .navbar-container .navbar-right .group-card {
   display: flex;
   flex-direction: row;
   padding: 10px;
 }
-
 .app-container .navbar-container .navbar-right .group-card .group-photos {
   cursor: pointer;
   display: flex;
   align-items: center;
 }
-
 .app-container .navbar-container .navbar-right .group-card .group-photos img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-
 .app-container .navbar-container .navbar-right .group-card .group-info {
   gap: 5px;
   margin-left: 1rem;
   display: flex;
   flex-direction: column;
 }
-
 .app-container .navbar-container .navbar-right .group-card .group-info .group-name {
   color: #d1d7db;
   font-size: 1.15rem;
   font-weight: 400;
 }
-
 .app-container .navbar-container .navbar-right .group-card .group-info .group-member {
   font-size: 1rem;
   font-weight: 400;
   color: #8696a0;
 }
-
 .app-container .navbar-container .navbar-right .navbar-icons {
   display: flex;
   flex-direction: row;
@@ -164,7 +147,6 @@ span svg {
   align-items: center;
   cursor: pointer;
 }
-
 .app-container .navbar-container .navbar-right .navbar-icons span {
   width: 36px;
   height: 36px;
@@ -172,34 +154,29 @@ span svg {
   align-items: center;
   justify-content: center;
 }
-
 .app-container .navbar-container .navbar-right .navbar-icons span:hover {
   border-radius: 50%;
   background-color: #374248;
   transition: 300ms background ease-in;
 }
-
 .app-container .card-contaniner {
   padding: 0 10px 0 0;
   display: flex;
   flex-direction: row;
   flex: 1;
 }
-
 .app-container .card-contaniner .contact-card {
   display: flex;
   flex-direction: column;
   background-color: #111b21;
   flex: 1;
 }
-
 .app-container .card-contaniner .contact-card .search-area {
   position: relative;
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-
 .app-container .card-contaniner .contact-card .search-area input {
   height: 35px;
   width: 100%;
@@ -213,25 +190,21 @@ span svg {
   font-family: inherit;
   cursor: pointer;
 }
-
 .app-container .card-contaniner .contact-card .search-area input::-moz-placeholder {
   color: rgba(174, 186, 193, 0.8);
   font-size: 1rem;
   text-align: start;
 }
-
 .app-container .card-contaniner .contact-card .search-area input:-ms-input-placeholder {
   color: rgba(174, 186, 193, 0.8);
   font-size: 1rem;
   text-align: start;
 }
-
 .app-container .card-contaniner .contact-card .search-area input::placeholder {
   color: rgba(174, 186, 193, 0.8);
   font-size: 1rem;
   text-align: start;
 }
-
 .app-container .card-contaniner .contact-card .search-area .icon-search {
   position: absolute;
   top: 15px;
@@ -239,7 +212,6 @@ span svg {
   display: flex;
   cursor: pointer;
 }
-
 .app-container .card-contaniner .contact-card .search-area .navbar-icons {
   display: flex;
   flex-direction: row;
@@ -247,7 +219,6 @@ span svg {
   padding: 0 5px;
   cursor: pointer;
 }
-
 .app-container .card-contaniner .contact-card .search-area .navbar-icons span {
   width: 30px;
   height: 30px;
@@ -255,37 +226,31 @@ span svg {
   align-items: center;
   justify-content: center;
 }
-
 .app-container .card-contaniner .contact-card .search-area .navbar-icons span:hover {
   border-radius: 50%;
   background-color: #00a884;
   transition: 300ms background ease-in;
 }
-
 .app-container .card-contaniner .contact-card .contact-member {
   display: flex;
   flex-direction: row;
   height: 80px;
 }
-
 .app-container .card-contaniner .contact-card .contact-member:hover {
   background-color: #202c33;
   transition: 300ms background ease-in;
 }
-
 .app-container .card-contaniner .contact-card .contact-member .member-photo {
   padding: 10px;
   display: flex;
   align-items: center;
 }
-
 .app-container .card-contaniner .contact-card .contact-member .member-photo img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   cursor: pointer;
 }
-
 .app-container .card-contaniner .contact-card .contact-member .member-info {
   display: flex;
   flex-direction: column;
@@ -294,13 +259,11 @@ span svg {
   padding: 5px;
   gap: 5px;
 }
-
 .app-container .card-contaniner .contact-card .contact-member .member-info .member-name {
   font-size: 16px;
   color: white;
   text-align: center;
 }
-
 .app-container .card-contaniner .contact-card .contact-member .member-info .member-messages {
   font-size: 1rem;
   width: 250px;
@@ -308,26 +271,22 @@ span svg {
   flex-wrap: wrap;
   text-align: start;
 }
-
 .app-container .card-contaniner .contact-card .contact-member .member-clock {
   margin-left: auto;
   display: flex;
   align-items: center;
   padding: 0 10px;
 }
-
 .app-container .card-contaniner .contact-card .contact-member .member-clock .clock {
   font-size: 0.85rem;
   justify-content: center;
   align-items: center;
   color: #aebac1;
 }
-
 .app-container .card-contaniner .contact-card .active {
   background-color: #202c33;
   transition: 300ms background ease-in;
 }
-
 .app-container .card-contaniner .chat-card {
   position: relative;
   display: flex;
@@ -335,7 +294,6 @@ span svg {
   flex-direction: column;
   border-left: rgba(207, 207, 207, 0.1568627451) 1px solid;
 }
-
 .app-container .card-contaniner .chat-card .message-input {
   position: absolute;
   bottom: 0;
@@ -347,7 +305,6 @@ span svg {
   gap: 10px;
   justify-content: space-between;
 }
-
 .app-container .card-contaniner .chat-card .message-input .navbar-icons {
   display: flex;
   flex-direction: row;
@@ -356,7 +313,6 @@ span svg {
   align-items: center;
   cursor: pointer;
 }
-
 .app-container .card-contaniner .chat-card .message-input .navbar-icons span {
   width: 36px;
   height: 36px;
@@ -364,18 +320,15 @@ span svg {
   align-items: center;
   justify-content: center;
 }
-
 .app-container .card-contaniner .chat-card .message-input .navbar-icons span:hover {
   border-radius: 50%;
   background-color: #374248;
   transition: 300ms background ease-in;
 }
-
 .app-container .card-contaniner .chat-card .message-input .input-box {
   width: 950px;
   display: flex;
 }
-
 .app-container .card-contaniner .chat-card .message-input .input-box input {
   height: 42px;
   font-size: 15px;
@@ -389,34 +342,30 @@ span svg {
   font-family: inherit;
   cursor: pointer;
 }
-
 .app-container .card-contaniner .chat-card .message-input .input-box input::-moz-placeholder {
   color: rgba(174, 186, 193, 0.8);
   font-size: 1rem;
   text-align: start;
 }
-
 .app-container .card-contaniner .chat-card .message-input .input-box input:-ms-input-placeholder {
   color: rgba(174, 186, 193, 0.8);
   font-size: 1rem;
   text-align: start;
 }
-
 .app-container .card-contaniner .chat-card .message-input .input-box input::placeholder {
   color: rgba(174, 186, 193, 0.8);
   font-size: 1rem;
   text-align: start;
 }
-
 .app-container .card-contaniner .chat-card .chat-ballon {
   padding: 2rem 3rem;
   display: flex;
   z-index: 999;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   gap: 20px;
+  height: calc(100% - 50px);
 }
-
 .app-container .card-contaniner .chat-card .chat-ballon .sender {
   display: inline-flex;
   border-radius: 10px 10px 10px 0;
@@ -428,30 +377,13 @@ span svg {
   flex-direction: column;
   justify-content: flex-start;
 }
-
 .app-container .card-contaniner .chat-card .chat-ballon .sender .sender-member {
   color: #0e9e47;
 }
-
 .app-container .card-contaniner .chat-card .chat-ballon .sender .sender-messages {
   color: #aebac1;
 }
-
-.app-container .card-contaniner .chat-card .chat-ballon .reader {
-  background-color: #005c4b;
-  display: flex;
-  border-radius: 10px 10px 0px 10px;
-  padding: 1rem;
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  margin-right: auto;
-  flex-direction: column;
-  justify-content: flex-end;
-  text-align: end;
-}
-
-.app-container .card-contaniner .chat-card .chat-ballon .reader .reader-messages {
-  align-items: center;
-  color: #aebac1;
-}
+.app-container .card-contaniner .chat-card .chat-ballon .sender .sender-messages span {
+  font-size: 11px;
+  padding-left: 4px;
+}/*# sourceMappingURL=app.css.map */
